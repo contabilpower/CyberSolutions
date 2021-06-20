@@ -21,7 +21,7 @@ Metodos metodo = new Metodos();
 	@When("insiro a data de nascimento no primeiro datepicker")
 	public void insiro_a_data_de_nascimento_no_primeiro_datepicker() {
 		metodo.clicar(data.datepicker1, "clicar em datepicker");
-		metodo.clicks(data.prev,502,"clicar no botão prev ate agosto de 1979");
+		metodo.clicks(data.prev,34,"clicar no botão prev ate agosto de 1979");
 		metodo.pausaTeste(500, "pausa o teste");
 		metodo.Textolink("10", "selecionar dia 10");
 		
